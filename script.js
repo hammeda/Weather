@@ -6,7 +6,7 @@ const wrapper = document.querySelector(".wrapper"),
     wIcon = document.querySelector(".weather-part img"),
     arrowBack = wrapper.querySelector("header i");
 
-let apiKey = "65e4c2cc4ad3fa2e7c598f3a8391e941";
+let apiKey = "APIKEY";
 let api;
 inputField.addEventListener("keyup", e => {
     // si l'utilisateur appuie sur entrer et que la valeur n'est pas null
